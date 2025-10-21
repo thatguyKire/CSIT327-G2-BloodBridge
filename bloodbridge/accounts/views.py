@@ -74,3 +74,5 @@ def logout_view(request):
 @login_required(login_url='/')
 def home_view(request):
     return render(request, "home.html")
+
+# checking
