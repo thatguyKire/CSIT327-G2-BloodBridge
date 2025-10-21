@@ -74,4 +74,4 @@ def logout_view(request):
 def home_view(request):
     if not request.user.is_authenticated:  # di maka access sa /home if not logged in
         return redirect("index")
-    return render(request, "home.html")
+    return render(request, "index.html")
